@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokemon Gym</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="navbar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">B-Gym</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="sponge">Price/Reviews</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="carouselExample">My Pokemon</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="cards">Order</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="title">Location/Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </section>
+
+        <section class="title-section" id="sponge">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1>B-Gym Rolling Into Town</h1>
+              <h3> Reminder: this is not a pokemon center if your pokemon faint I can't help</h3>
+              <button type="button" class="btn btn-warning">Directions to Pokemon Center</button>
+            </div>
+            <div class="col-lg-6">
+              <img class="title-image" src="images/download.png" alt="pokemon ball"/>
+            </div>
+          </div>
+  
+        </section>
+
+        <section id="reviews">
+          <div id="carouselExample" class="carousel slide carousel-center">
+            <div class="carousel-inner">
+              <div class="carousel-item active"> <h1>530 Pokedollar fee</h1>
+                <img src="images/download (1).png" class="carousel-image" alt="...">
+              </div>
+              <div class="carousel-item"> <h1>Its too easy I beat it on my first try</h1>
+                <img src="images/download.jfif" class="other-carousel-image" alt="..."> <em>Brock, Gym Leader of Pewter City</em>
+              </div>
+              <div class="carousel-item"> <h1>I think this gym is pretty challenging and is worth a shot</h1>
+                <img src="images/Misty.jfif" class="other-carousel-image" alt="..."> <em>Misty, Gym leader of Cerulean City</em>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <section class="card-section" id="cards">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/Gengar.jfif" class="card-img-top pokemon-cards" alt="Gengar">
+                  <div class="card-body">
+                    <h5 class="card-title">Gengar</h5>
+                    <p class="card-text">
+                      Type: Ghost, Poison <br/>
+                      Weaknesses: Dark, Ghost, Psychic <br/>
+                      Moveset: Sucker Punch, Mean Look, Confusion Ray, Night Shade</p>
+                    <a href="https://pokemondb.net/pokedex/gengar" class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/Geodude.jfif" class="card-img-top pokemon-cards" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Geodude</h5>
+                    <p class="card-text">
+                      Type: Rock, Ground <br/>
+                      Weaknesses: Water, Grass, Ice, Fighting, Ground, Steel <br/>
+                      Moveset: Rock Throw, Self-Destruct, Stone Edge, Rollout
+                    </p>
+                    <a href="https://pokemondb.net/pokedex/geodude" class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/Charazard.jfif" class="card-img-top pokemon-cards" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Charizard</h5>
+                    <p class="card-text">
+                      Type: Fire, Flying <br/>
+                      Weaknesses: Water, Electric, Rock <br/>
+                      Moveset: Dragon Claw, Fire Fang, Flamethrower, Inferno</p>
+                    <a href="https://pokemondb.net/pokedex/charizard" class="btn btn-primary">See More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section class="titles-section" id="title">
+            <div class="row">
+              <h3 class="centered-title">My Pokemon and the Order I Send them Out</h3>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img class="shrink-image" src="images/Geodude.jfif" alt="Geodude"/>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img class="shrink-image" src="images/Charazard.jfif" alt="Charizard"/>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img class="shrink-image" src="images/Gengar.jfif" alt="Gengar"/>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img class="shrink-image" src="images/houndoom.avif" alt="Houndoom"/>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img class="shrink-image" src="images/electabuzz.avif" alt="Electabuzz"/>
+              </div>
+              <div class="col-lg-2 col-md-4 col-sm-12">
+                <img class="shrink-image" src="images/bisharp.avif" alt="Bisharp"/>
+              </div>
+            </div>
+        </section>
+        <section class="footer-title">
+          <h3 class="centered-title">In the middle of pallet town| (217)-561-0116</h3>
+        </section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>

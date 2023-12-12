@@ -1,0 +1,77 @@
+.title-section{
+    background-color: #96EFFF;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    color: #000;
+}
+.title-image{
+    transform: rotate(180);
+}
+.carousel-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-center{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    background-color: #5FBDFF;
+    color: #000;
+}
+.other-carousel-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pokemon-cards{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-section{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    background-color: #C5FFF8;
+    color: #000;
+}
+.centered-title{
+    text-align: center;
+}
+.shrink-image{
+    height: 150px;
+    width: 150px;
+}
+.footer-title{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    background-color: #C5FFF8;
+    color: #000;
+}
+.titles-section{
+    background-color: #C5FFF8;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    color: #000;
+}
+.navbar{
+    background-color: #7B66FF;
+}
+#reviews{
+    text-align: center;
+}
